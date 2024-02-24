@@ -135,7 +135,7 @@ const Home = () => {
               <div className="hotel-details">
                 <h3>{hotel.name}</h3>
                 <p>{hotel.location}</p>
-                <p>{hotel.pricePerNight}</p>
+                <p> ₹ {hotel.pricePerNight}</p>
                 <button onClick={() => handleBook(hotel._id)}>Book Now</button>
               </div>
             </div>
