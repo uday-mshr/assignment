@@ -23,8 +23,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3001:3000"
-    volumes:
-      - ./server:/app
     environment:
       - .env
     depends_on:
