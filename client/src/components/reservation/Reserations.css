@@ -1,0 +1,28 @@
+/* src/Reservations.css */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .reservation-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .reservation-details {
+    margin-bottom: 20px;
+  }
+  
+  .back-link {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,122 @@
+/* src/Home.css */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+  }
+  
+  .filter-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .filter-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-form label {
+    margin-bottom: 5px;
+  }
+  
+  .filter-form select,
+  .filter-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .filter-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .filter-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hotel-list-section {
+    flex: 6;
+  }
+  
+  .hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .hotel-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .hotel-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hotel-details {
+    margin-top: 10px;
+  }
+
+  .hotel-details button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .hotel-details button:hover {
+    background-color: #218838;
+  }
+
+  .booking-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .booking-modal h2 {
+    margin-bottom: 20px;
+  }
+  
+  .booking-modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .booking-modal label {
+    margin-bottom: 5px;
+  }
+  
+  .booking-modal input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .booking-modal button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .booking-modal button:hover {
+    background-color: #218838;
+  }
+  
+  
+  /* Add more styling as needed */
+  
